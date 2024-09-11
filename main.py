@@ -9,7 +9,7 @@ from colorama import Fore, Style
 async def run_subscription():
     # Setup WebSocket connection
     transport = WebsocketsTransport(
-        url="wss://streaming.bitquery.io/eap?token=ory_at_utHxV4TA-KLdv3NM0h8m_88KHUAuxLMeByYb62vF_iU.Pxe5noJx__EZgsTKxHmmAsG7SC8wNLD5nWzW60fN_J4",
+        url="wss://streaming.bitquery.io/eap?token=ory_**Your OAuth Token here**",
         headers={"Sec-WebSocket-Protocol": "graphql-ws"})
 
     # Establish the connection
